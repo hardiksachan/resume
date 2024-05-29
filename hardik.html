@@ -1,247 +1,367 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <script src="https://kit.fontawesome.com/4ae1bbb1ff.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/4ae1bbb1ff.js"
+      crossorigin="anonymous"
+    ></script>
 
     <style>
-        @page {
-            size: A4;
-            margin: 0;
-        }
+      @page {
+        size: A4;
+        margin: 0;
+      }
     </style>
     <title>Hardik Sachan</title>
-</head>
+  </head>
 
-<body class="bg-gray-300 print:w-[21cm] font-[Poppins] font-light">
+  <body class="bg-gray-300 print:w-[21cm] font-[Poppins] font-light">
     <page class="bg-white block mx-auto w-[21cm] h-[29.7cm] px-6 py-4">
-        <!-- Header -->
-        <div class="text-center">
-            <h1 class="text-xl tracking-wide uppercase"><span class="font-semibold">Hardik</span> Sachan</h1>
-            <div class="flex items-baseline justify-center">
-                <i class="mr-1 fa-solid fa-envelope fa-sm"></i>
-                <a class="mr-4 underline" target="_blank"
-                    href="mailto:sachanhardik@gmail.com">sachanhardik@gmail.com</a>
+      <!-- Header -->
+      <div class="text-center-noop">
+        <h1 class="text-2xl tracking-wide uppercase">
+          <span class="font-semibold">Hardik</span> Sachan
+        </h1>
+        <div class="flex items-baseline justify-start">
+          <i class="mr-1 fa-solid fa-envelope fa-sm"></i>
+          <a
+            class="mr-4 underline"
+            target="_blank"
+            href="mailto:sachanhardik@gmail.com"
+            >sachanhardik@gmail.com</a
+          >
 
-                <i class="mr-1 fa-solid fa-phone fa-sm"></i>
-                <p>+91 9452757947</p>
-            </div>
-            <div class="flex items-center justify-center">
-                <i class="mr-1 fa-solid fa-globe fa-sm"></i>
-                <a class="mr-4 underline" target="_blank" href="https://hardiksachan.com">hardiksachan.com</a>
-
-                <i class="mr-1 fa-brands fa-github fa-sm"></i>
-                <a class="mr-4 underline" target="_blank" href="https://github.com/hardiksachan">/hardiksachan</a>
-
-                <i class="mr-1 fa-brands fa-linkedin fa-sm"></i>
-                <a target="_blank" href="https://linkedin.com/in/hardik-sachan/"
-                    class="underline">/in/hardik-sachan/</a>
-            </div>
+          <i class="mr-1 fa-solid fa-phone fa-sm"></i>
+          <p>+91 9452757947</p>
         </div>
+        <div class="flex items-center justify-start">
+          <i class="mr-1 fa-solid fa-globe fa-sm"></i>
+          <a
+            class="mr-4 underline"
+            target="_blank"
+            href="https://hardiksachan.com"
+            >hardiksachan.com</a
+          >
 
-        <hr class="block h-px my-1 bg-gray-700 border-0">
+          <i class="mr-1 fa-brands fa-github fa-sm"></i>
+          <a
+            class="mr-4 underline"
+            target="_blank"
+            href="https://github.com/hardiksachan"
+            >/hardiksachan</a
+          >
+
+          <i class="mr-1 fa-brands fa-linkedin fa-sm"></i>
+          <a
+            target="_blank"
+            href="https://linkedin.com/in/hardik-sachan/"
+            class="underline"
+            >/in/hardik-sachan/</a
+          >
+        </div>
+      </div>
+
+      <hr class="block h-px my-2 bg-gray-700 border-0" />
+      <div class="flex flex-col space-y-4">
+        <!-- Education -->
+        <div>
+          <div class="flex flex-col">
+            <h1 class="text-lg font-semibold tracking-wide uppercase">
+              Education
+            </h1>
+            <div>
+              <div class="flex justify-between">
+                <h3 class="font-medium underline">
+                  National Institute of Technology Delhi
+                </h3>
+              </div>
+              <div class="flex justify-between">
+                <p class="text-sm italic">
+                  Bachelor of Technology in Electrical &amp; Electronics
+                  Engineering
+                </p>
+                <p class="text-sm">
+                  CGPA: <span class="font-medium">7.87</span>/10
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex justify-between">
+                <h3 class="font-medium underline">
+                  Delhi Public School Barra, Kanpur
+                </h3>
+              </div>
+              <div class="flex justify-between">
+                <p class="text-sm italic">
+                  All India Senior School Certificate Examination (Class 12)
+                </p>
+                <p class="text-sm">
+                  Percentage: <span class="font-medium">98.8</span>&percnt;
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <!-- Experience -->
         <div>
-            <div class="flex flex-col gap-1">
-                <h1 class="text-lg font-semibold tracking-wide text-center uppercase">Experience</h1>
-                <div>
-                    <div class="flex justify-between">
-                        <h3 class="font-medium underline">Logistics Coordinators</h3>
-                        <p>Jun 2023 - Apr 2024</p>
-                    </div>
-                    <p class="text-sm italic">Full Stack Developer (Remote)</p>
-                    <p class="text-sm">
-                        Spearheaded the development of <a target="_blank" href="https://fms.loadlc.com"
-                            class="text-sm italic underline">FMS</a>
-                        , a cloud-based fleet management platform. Leveraged strong leadership and technical expertise,
-                        to deliver a scalable and user-centric platform.
-                    </p>
-                    <ul class="text-sm list-disc list-inside">
-                        <li><span class="font-medium">Project Management:</span> Led a cross-functional team of
-                            developers and designers (4 developers, 2
-                            designers) using Agile methodologies, ensuring on-time and on-budget delivery.</li>
-                        <li><span class="font-medium">Technical Leadership:</span>
-                            <ul class="pl-5 list-disc list-inside">
-                                <li>Re-architected the backend infrastructure, migrating from a non-modular NodeJS
-                                    environment to a scalable and maintainable <span class="font-medium">GoLang</span>
-                                    solution utilizing <span class="font-medium">PostgreSQL</span> & <span
-                                        class="font-medium">RabbitMQ</span> deployed with <span
-                                        class="font-medium">Kubernetes</span>.
-                                </li>
-                                <li>Utilized <span class="font-medium">NextJS</span>, <span
-                                        class="font-medium">Tailwind</span>, <span class="font-medium">Drizzle</span>
-                                    and other modern technologies to build a robust and
-                                    visually appealing user interface.</li>
-                                <li>Developed a performant and user-friendly mobile application for drivers using
-                                    <span class="font-medium">Flutter</span>.
-                                </li>
-                            </ul>
-                        </li>
-                        <li><span class="font-medium">Communication:</span> Effectively communicated project progress
-                            and tailored presentations to client needs, ensuring a successful rollout and user adoption.
-                        </li>
-                        <li><span class="font-medium">Features:</span>
-                            <ul class="pl-5 list-disc list-inside">
-                                <li>Centralized admin portal for user & vehicle management.</li>
-                                <li>Real-time dashboard for data-driven decisions.</li>
-                                <li>Emergency response for improved operational efficiency.</li>
-                                <li>Pre-trip checks & mobile app for enhanced safety & driver experience.</li>
-                                <li>Streamlined mechanic portal for optimized fleet maintenance.</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-
+          <div class="flex flex-col">
+            <h1 class="text-lg font-semibold tracking-wide uppercase">
+              Experience
+            </h1>
+            <div>
+              <div class="flex justify-between">
+                <h3 class="font-medium underline">Logistics Coordinators</h3>
+                <p>Jun 2023 - Apr 2024</p>
+              </div>
+              <p class="text-sm italic">Full Stack Developer (Remote)</p>
+              <p class="text-sm">
+                Spearheaded the development of
+                <a
+                  target="_blank"
+                  href="https://fms.loadlc.com"
+                  class="text-sm italic underline"
+                  >FMS</a
+                >
+                , a cloud-based fleet management platform. Leveraged strong
+                leadership and technical expertise, to deliver a scalable and
+                user-centric platform.
+              </p>
+              <ul class="text-sm list-disc list-inside">
+                <li>
+                  Led a cross-functional team of developers and designers (4
+                  developers, 2 designers) using Agile methodologies, ensuring
+                  on-time and on-budget delivery.
+                </li>
+                    <li>
+                      Re-architected the backend infrastructure, migrating from
+                      a non-modular NodeJS environment to a scalable and
+                      maintainable
+                      <span class="font-medium">GoLang</span> solution utilizing
+                      <span class="font-medium">PostgreSQL</span> &
+                      <span class="font-medium">RabbitMQ</span> deployed with
+                      <span class="font-medium">Kubernetes</span>.
+                    </li>
+                    <li>
+                      Utilized <span class="font-medium">NextJS</span>,
+                      <span class="font-medium">Tailwind</span>,
+                      <span class="font-medium">Drizzle</span> and other modern
+                      technologies to build a robust and visually appealing user
+                      interface.
+                    </li>
+                    <li>
+                      Developed a performant and user-friendly mobile
+                      application for drivers using
+                      <span class="font-medium">Flutter</span>.
+                </li>
+                <li>
+                   Effectively
+                  communicated project progress and tailored presentations to
+                  client needs, ensuring a successful rollout and user adoption.
+                </li>
+                <!--<li><span class="font-medium">Features:</span>-->
+                <!--    <ul class="pl-5 list-disc list-inside">-->
+                <!--        <li>Centralized admin portal for user & vehicle management.</li>-->
+                <!--        <li>Real-time dashboard for data-driven decisions.</li>-->
+                <!--        <li>Emergency response for improved operational efficiency.</li>-->
+                <!--        <li>Pre-trip checks & mobile app for enhanced safety & driver experience.</li>-->
+                <!--        <li>Streamlined mechanic portal for optimized fleet maintenance.</li>-->
+                <!--    </ul>-->
+                <!--</li>-->
+              </ul>
             </div>
-        </div>
-
-        <!-- Education -->
-        <div>
-            <div class="flex flex-col gap-1">
-                <h1 class="text-lg font-semibold tracking-wide text-center uppercase">Education</h1>
-                <div>
-                    <div class="flex justify-between">
-                        <h3 class="font-medium underline">National Institute of Technology Delhi</h3>
-                        <p>2025</p>
-                    </div>
-                    <div class="flex justify-between">
-                        <p class="text-sm italic">Bachelor of Technology in Electrical &amp; Electronics Engineering</p>
-                        <p class="text-sm">CGPA: <span class="font-medium">7.87</span>/10</p>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="flex justify-between">
-                        <h3 class="font-medium underline">Delhi Public School Barra, Kanpur</h3>
-                        <p>2021</p>
-                    </div>
-                    <div class="flex justify-between">
-                        <p class="text-sm italic">All India Senior School Certificate Examination (Class 12)</p>
-                        <p class="text-sm">Percentage: <span class="font-medium">98.8</span>&percnt;</p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
 
         <!-- Projects -->
         <div>
-            <div class="flex flex-col gap-1">
-                <h1 class="text-lg font-semibold tracking-wide text-center uppercase">Projects</h1>
+          <div class="flex flex-col">
+            <h1 class="text-lg font-semibold tracking-wide uppercase">
+              Projects
+            </h1>
 
-                <div>
-                    <div class="flex justify-between">
-                        <h3 class="font-medium underline">Breadit (Reddit Clone)</h3>
-                        <a href="https://github.com/hardiksachan/breadit" class="text-sm italic underline">Github</a>
-                    </div>
-                    <ul class="text-sm list-disc list-inside">
-                        <li>Developed an application featuring infinite scrolling for dynamic post loading, optimistic
-                            updates, and
-                            integrated authentication via NextAuth and Google services.</li>
-                        <li>Designed a sophisticated post editor with seamless image uploads, link previews, and full
-                            comment functionality including nested replies.</li>
-                        <li class="font-medium">Technologies Used &mdash; NextJS, Tailwind CSS, Zod, EditorJS, RadixUI
-                            (using shadcn/ui), Tanstack Query, UploadThing, Axios, NextAuth.</li>
-                    </ul>
-                </div>
-
+            <div>
+              <div class="flex justify-between">
+                <h3 class="font-medium underline">
+                  Identity Reconciliation API
+                </h3>
+                <a
+                  href="https://github.com/hardiksachan/identity-reconciliation"
+                  class="text-sm italic underline"
+                  >Github</a
+                >
+              </div>
+              <ul class="text-sm list-disc list-inside">
+                <li>
+                  Developed an identity reconciliation service for an e-commerce
+                  platform.
+                </li>
+                <li>
+                  Designed to identify and link customer purchases across
+                  different contact information.
+                </li>
+                <li class="font-medium">
+                  Technologies Used &mdash; NodeJS, PostgreSQL, REST
+                </li>
+              </ul>
             </div>
+
+            <div>
+              <div class="flex justify-between">
+                <h3 class="font-medium underline">Breadit (Reddit Clone)</h3>
+                <a
+                  href="https://github.com/hardiksachan/breadit"
+                  class="text-sm italic underline"
+                  >Github</a
+                >
+              </div>
+              <ul class="text-sm list-disc list-inside">
+                <li>
+                  Developed an application featuring infinite scrolling for
+                  dynamic post loading, optimistic updates, and integrated
+                  authentication via NextAuth and Google services.
+                </li>
+                <li>
+                  Designed a sophisticated post editor with seamless image
+                  uploads, link previews, and full comment functionality
+                  including nested replies.
+                </li>
+                <li class="font-medium">
+                  Technologies Used &mdash; NextJS, Tailwind CSS, Zod, EditorJS,
+                  RadixUI (using shadcn/ui), Tanstack Query, UploadThing, Axios,
+                  NextAuth.
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         <!-- Skills -->
         <div>
-            <div class="flex flex-col gap-1">
-                <h1 class="text-lg font-semibold tracking-wide text-center uppercase">Skills</h1>
-                <ul class="flex flex-wrap text-sm gap-x-1">
-                    <li class="font-semibold">Languages &mdash;</li>
-                    <li>Javascript,</li>
-                    <li>Typescript,</li>
-                    <li>Go,</li>
-                    <li>Java,</li>
-                    <li>Kotlin,</li>
-                    <li>Python,</li>
-                    <li>PostgreSQL</li>
-                    <li>|</li>
+          <div class="flex flex-col">
+            <h1 class="text-lg font-semibold tracking-wide uppercase">
+              Skills
+            </h1>
+            <ul class="flex flex-wrap text-sm gap-x-1">
+              <li class="font-semibold">Languages &mdash;</li>
+              <li>Javascript,</li>
+              <li>Typescript,</li>
+              <li>Go,</li>
+              <li>Java,</li>
+              <li>Kotlin,</li>
+              <li>Python,</li>
+              <li>PostgreSQL</li>
+              <li>|</li>
 
-                    <li class="font-semibold">Web Technologies &mdash;</li>
-                    <li>ReactJS,</li>
-                    <li>NextJS,</li>
-                    <li>Drizzle,</li>
-                    <li>Axios,</li>
-                    <li>Express JS,</li>
-                    <li>Chakra UI,</li>
-                    <li>Tailwind CSS,</li>
-                    <li>Tanstack Query</li>
-                    <li>|</li>
+              <li class="font-semibold">Web Technologies &mdash;</li>
+              <li>ReactJS,</li>
+              <li>NextJS,</li>
+              <li>Drizzle,</li>
+              <li>Axios,</li>
+              <li>Express JS,</li>
+              <li>Chakra UI,</li>
+              <li>Tailwind CSS,</li>
+              <li>Tanstack Query</li>
+              <li>|</li>
 
-                    <li class="font-semibold">Android &mdash;</li>
-                    <li>Android SDK,</li>
-                    <li>Jetpack Compose,</li>
-                    <li>SQL Delight,</li>
-                    <li>Dagger Hilt,</li>
-                    <li>Jetpack Datastore,</li>
-                    <li>|</li>
+              <li class="font-semibold">Android &mdash;</li>
+              <li>Android SDK,</li>
+              <li>Jetpack Compose,</li>
+              <li>SQL Delight,</li>
+              <li>Dagger Hilt,</li>
+              <li>Jetpack Datastore,</li>
+              <li>|</li>
 
-                    <li class="font-semibold">Software Architecture &mdash;</li>
-                    <li>TDD,</li>
-                    <li>DDD</li>
-                    <li>|</li>
+              <li class="font-semibold">Software Architecture &mdash;</li>
+              <li>TDD,</li>
+              <li>DDD</li>
+              <li>|</li>
 
-                    <li class="font-semibold">Other &mdash;</li>
-                    <li>Git,</li>
-                    <li>Docker,</li>
-                    <li>Kubernetes,</li>
-                    <li>Github,</li>
-                    <li>Linux</li>
-
-                </ul>
-
-            </div>
+              <li class="font-semibold">Other &mdash;</li>
+              <li>Git,</li>
+              <li>Docker,</li>
+              <li>Kubernetes,</li>
+              <li>Github,</li>
+              <li>Linux</li>
+            </ul>
+          </div>
         </div>
 
         <!-- Articles -->
         <div>
-            <div class="flex flex-col gap-1">
-                <h1 class="text-lg font-semibold tracking-wide text-center uppercase">Articles</h1>
-                <ul class="text-sm list-disc list-inside">
-                    <li><a href="https://hardiksachan.com/series/android-zero-to-hero"
-                            class="font-normal underline">Learn Android
-                            Development with
-                            Jetpack Compose and Kotlin</a> &mdash; Ongoing Series</li>
-                    <li><a href="https://hardiksachan.com/build-a-lightdark-theme-toggle-with-jetpack-compose-in-android-a-step-by-step-guide"
-                            class="font-normal underline">Build a Light/Dark Theme Toggle with Jetpack Compose in
-                            Android</a> &mdash; Dec 30, 2022</li>
-                    <li><a href="https://hardiksachan.com/become-a-refactoring-pro-with-these-essential-techniques-in-android-studio"
-                            class="font-normal underline">Become a Refactoring Pro with These Essential Techniques in
-                            Android Studio</a> &mdash; Dec 28, 2022</li>
-                    <li><a href="https://hardiksachan.com/getting-started-with-linux-terminal"
-                            class="font-normal underline">Getting Started with Linux Terminal</a>
-                        &mdash; Dec 28, 2021</li>
-                    <li><a href="https://hardiksachan.com/introduction-to-appwrite-cloud-functions-with-android-and-kotlin"
-                            class="font-normal underline">Introduction to Appwrite Cloud Functions with Android and
-                            Kotlin</a>
-                        &mdash; Oct 21, 2021</li>
-                    <li><a href="https://hardiksachan.com/kotlin-flows-collect-vs-collectlatest"
-                            class="font-normal underline">Kotlin Flows - collect vs collectLatest</a>
-                        &mdash; Oct 14, 2021</li>
-
-                </ul>
-
-            </div>
+          <div class="flex flex-col">
+            <h1 class="text-lg font-semibold tracking-wide uppercase">
+              Articles
+            </h1>
+            <ul class="text-sm list-disc list-inside">
+              <li>
+                <a
+                  href="https://hardiksachan.com/series/android-zero-to-hero"
+                  class="font-normal underline"
+                  >Learn Android Development with Jetpack Compose and Kotlin</a
+                >
+                &mdash; Ongoing Series
+              </li>
+              <li>
+                <a
+                  href="https://hardiksachan.com/build-a-lightdark-theme-toggle-with-jetpack-compose-in-android-a-step-by-step-guide"
+                  class="font-normal underline"
+                  >Build a Light/Dark Theme Toggle with Jetpack Compose in
+                  Android</a
+                >
+                &mdash; Dec 30, 2022
+              </li>
+              <li>
+                <a
+                  href="https://hardiksachan.com/become-a-refactoring-pro-with-these-essential-techniques-in-android-studio"
+                  class="font-normal underline"
+                  >Become a Refactoring Pro with These Essential Techniques in
+                  Android Studio</a
+                >
+                &mdash; Dec 28, 2022
+              </li>
+              <li>
+                <a
+                  href="https://hardiksachan.com/getting-started-with-linux-terminal"
+                  class="font-normal underline"
+                  >Getting Started with Linux Terminal</a
+                >
+                &mdash; Dec 28, 2021
+              </li>
+              <li>
+                <a
+                  href="https://hardiksachan.com/introduction-to-appwrite-cloud-functions-with-android-and-kotlin"
+                  class="font-normal underline"
+                  >Introduction to Appwrite Cloud Functions with Android and
+                  Kotlin</a
+                >
+                &mdash; Oct 21, 2021
+              </li>
+              <li>
+                <a
+                  href="https://hardiksachan.com/kotlin-flows-collect-vs-collectlatest"
+                  class="font-normal underline"
+                  >Kotlin Flows - collect vs collectLatest</a
+                >
+                &mdash; Oct 14, 2021
+              </li>
+            </ul>
+          </div>
         </div>
-
+      </div>
     </page>
-</body>
-
+  </body>
 </html>
