@@ -104,11 +104,59 @@
               <div class="">
                 <div class="flex justify-between">
                   <div class="flex items-baseline mr-auto gap-x-1">
+                    <h3 class="font-bold mr-auto">Headout</h3>
+                    <span>|</span>
+                    <p class="text-sm">Bengaluru, IN</p>
+                  </div>
+                  <p>Nov 2025 &mdash; Present</p>
+                </div>
+                <div
+                  class="italic grid grid-cols-[max-content_1fr] gap-x-4 text-sm mr-auto items-baseline"
+                >
+                  <p>Backend Engineer</p>
+                </div>
+                <ul class="text-sm pl-8 list-disc list-outside">
+                  <li>
+                    Owned Hub's schedule platform across creation, validation,
+                    inventory sync, partner rollout, and production support;
+                    schedule APIs handled
+                    <span class="font-bold">256,675 requests</span> during the
+                    review cycle.
+                  </li>
+                  <li>
+                    Delivered group pricing across Hub, Absolut, and Uruk and
+                    extended Offers with group-size targeting; made
+                    <span class="font-bold">1,495 additional vendors</span>
+                    migratable and moved
+                    <span class="font-bold">7,897 vendor tours</span> from the
+                    legacy Suppliers system to Hub.
+                  </li>
+                  <li>
+                    Found a Hub-wide R2DBC transaction bug that partially
+                    committed <span class="font-bold">7 of 8 failed requests</span>;
+                    fixed transaction handling and verified complete rollback.
+                  </li>
+                  <li>
+                    Split schedule creation from listing creation across four
+                    services and moved inventory repopulation to Temporal with
+                    retries, concurrency control, alerts, and recovery tooling.
+                  </li>
+                  <li>
+                    Replaced direct Coralogix delivery with OTel-compatible JSON
+                    logging across application and infrastructure repositories
+                    and wrote the production investigation runbook.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="">
+                <div class="flex justify-between">
+                  <div class="flex items-baseline mr-auto gap-x-1">
                     <h3 class="font-bold mr-auto">Gameskraft</h3>
                     <span>|</span>
                     <p class="text-sm">Bengaluru, IN</p>
                   </div>
-                  <p>Jan 2025 &mdash; Present</p>
+                  <p>Jan 2025 &mdash; Nov 2025</p>
                 </div>
                 <div
                   class="italic grid grid-cols-[max-content_1fr] gap-x-4 text-sm mr-auto items-baseline"
@@ -117,13 +165,20 @@
                 </div>
                 <ul class="text-sm pl-8 list-disc list-outside">
                   <li>
-                    Designed and implemented a comprehensive <span class="font-bold">Maker-Checker workflow approval system</span> using TypeScript, implementing <span class="font-bold">multi-level role-based</span> approval workflows with configurable escalation rules, audit logging, and automated communication notifications, enabling secure business process governance across multiple approval levels while maintaining compliance and operational efficiency.
+                    Designed a
+                    <span class="font-bold">Maker-Checker approval system</span>
+                    in TypeScript with multi-level role-based workflows,
+                    escalation rules, audit logs, and automated notifications.
                   </li>
                   <li>
-                    Refactored 17+ HTTP clients from direct Axios usage to <span class="font-bold">centralized factory pattern</span>, achieving 61% code reduction and standardized error handling while maintaining backward compatibility and adding new API capabilities.
+                    Refactored 17+ Axios clients into a
+                    <span class="font-bold">centralized factory</span>, reducing
+                    client code by <span class="font-bold">61%</span> while
+                    standardizing error handling and preserving compatibility.
                   </li>
                   <li>
-                    Developed an intelligent <span class="font-bold">Gameplay Assistant system</span> that enhances player experience by providing real-time strategic guidance for optimal card picks, smart discard recommendations, hand analysis insights, and strategic card suggestions.
+                    Built a gameplay assistant that provided real-time card
+                    recommendations, discard guidance, and hand analysis.
                   </li>
                 </ul>
               </div>
@@ -172,43 +227,6 @@
                     by migrating the frontend from a React SPA to Next.js
                     resulting in a faster and responsive user experience.
                   </li>
-                  <li>
-                    Enabled continuous integration and continuous delivery
-                    (CI/CD) with automated deployments using Kubernetes,
-                    streamlining the development process and
-                    <span class="font-bold"
-                      >reducing deployment time by 40%</span
-                    >
-                    for FMS.
-                  </li>
-                  <li>
-                    <span class="font-bold">Reduced</span> Driver's
-                    Qualification File
-                    <span class="font-bold">generation time by 80%</span>
-                    by re-writing the service from Puppeteer on the backend to a
-                    Next.js app utilizing the router and user-prompted printing.
-                  </li>
-                  <li>
-                    <span class="font-bold">Links &mdash;</span>
-                    <a
-                      target="_blank"
-                      href="https://fms.loadlc.com"
-                      class="underline"
-                      >Fleet Management System</a
-                    >,
-                    <a
-                      target="_blank"
-                      href="https://www.labour-connect.com/"
-                      class="underline"
-                      >Labour Connect</a
-                    >,
-                    <a
-                      target="_blank"
-                      href="https://www.loadlc.com/"
-                      class="underline"
-                      >Logistics Coordinators</a
-                    >
-                  </li>
                 </ul>
               </div>
             </div>
@@ -243,61 +261,12 @@
                   </li>
 
                   <li>
-                    <span class="font-bold">xretry:</span> Implements seamless
-                    retry mechanisms for operations, improving resilience and
-                    fault tolerance.
-                  </li>
-
-                  <li>
-                    <span class="font-bold">xerrors:</span> Enhances error
-                    handling with advanced features for better error management
-                    and debugging.
-                  </li>
-
-                  <li>
                     <span class="font-bold">xlog:</span> Provides comprehensive
                     logging capabilities to monitor and track application events
                     effectively.
                   </li>
-
-                  <li>
-                    <span class="font-bold">xtoken:</span> Facilitates secure
-                    token generation and management for authentication and
-                    authorization processes.
-                  </li>
-
-                  <li>
-                    <span class="font-bold">xhash:</span> Offers hashing
-                    functionalities, including bcrypt, for secure data hashing
-                    needs.
-                  </li>
                   <li class="font-bold">
                     Technologies Used &mdash; Go, PostgreSQL, RabbitMQ
-                  </li>
-                </ul>
-              </div>
-
-              <div>
-                <div class="flex gap-x-4">
-                  <h3 class="font-bold mr-auto">Identity Reconciliation API</h3>
-                  <a
-                    target="_blank"
-                    href="https://github.com/hardiksachan/identity-reconciliation"
-                    class="text-sm underline"
-                    >Github</a
-                  >
-                </div>
-                <ul class="text-sm pl-8 list-disc list-outside">
-                  <li>
-                    Developed an identity reconciliation service for an
-                    e-commerce platform.
-                  </li>
-                  <li>
-                    Designed to identify and link customer purchases across
-                    different contact information.
-                  </li>
-                  <li class="font-bold">
-                    Technologies Used &mdash; NodeJS, PostgreSQL, REST, HTTP
                   </li>
                 </ul>
               </div>
